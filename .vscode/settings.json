@@ -2,9 +2,9 @@
   "editor.glyphMargin": true,
   "debug.allowBreakpointsEverywhere": true,
   "files.associations": {
-    "*.asm": "asm-intel-x64",
-    "*.inc": "asm-intel-x64",
-    "*.s": "asm-intel-x64",
-    "*.S": "asm-intel-x64"
+    "*.asm": "asm-intel-x86-generic",
+    "*.inc": "asm-intel-x86-generic",
+    "*.s": "asm-intel-x86-generic",
+    "*.S": "asm-intel-x86-generic"
   }
 }
