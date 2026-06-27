@@ -1,4 +1,10 @@
 {
-    "editor.glyphMargin": true,
-    "debug.allowBreakpointsEverywhere": true
+  "editor.glyphMargin": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "files.associations": {
+    "*.asm": "asm-intel-x64",
+    "*.inc": "asm-intel-x64",
+    "*.s": "asm-intel-x64",
+    "*.S": "asm-intel-x64"
+  }
 }

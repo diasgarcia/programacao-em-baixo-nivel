@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build ASM atual",
+      "type": "shell",
+      "command": "mkdir -p \"${workspaceFolder}/build\" && nasm -f elf64 -g -F dwarf \"${file}\" -o \"${workspaceFolder}/build/${fileBasenameNoExtension}.o\" && ld \"${workspaceFolder}/build/${fileBasenameNoExtension}.o\" -o \"${workspaceFolder}/build/${fileBasenameNoExtension}\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

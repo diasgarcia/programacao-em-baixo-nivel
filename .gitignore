@@ -1,28 +1,56 @@
-# Objetos e binários gerados
+# Build gerado pelo VS Code/tasks
+build/
+out/
+dist/
+
+# Objetos e binários gerados por Assembly/C
 *.o
 *.obj
 *.out
-*.bin
 *.elf
+*.bin
 *.exe
+*.dll
+*.so
+*.a
+*.lib
 
-# Executáveis locais
+# Executáveis comuns sem extensão
 a.out
 stack
+
+# Arquivos específicos gerados nos exercícios
 pilha-de-hardware/a.out
 pilha-de-hardware/stack
+pilha-de-hardware/*.o
 
-# Arquivos auxiliares de build/debug
+# Arquivos auxiliares de assembler/linker/debug
 *.lst
 *.map
 *.dump
 *.dis
 *.sym
+*.dSYM/
+*.debug
 
 # Core dumps
 core
 core.*
 
-# Temporários
-*.tmp
+# GDB
+.gdb_history
+.gdbinit.local
+
+# Logs e temporários
 *.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
