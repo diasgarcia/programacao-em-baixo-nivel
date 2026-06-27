@@ -1,0 +1,28 @@
+# Objetos e binários gerados
+*.o
+*.obj
+*.out
+*.bin
+*.elf
+*.exe
+
+# Executáveis locais
+a.out
+stack
+pilha-de-hardware/a.out
+pilha-de-hardware/stack
+
+# Arquivos auxiliares de build/debug
+*.lst
+*.map
+*.dump
+*.dis
+*.sym
+
+# Core dumps
+core
+core.*
+
+# Temporários
+*.tmp
+*.log

@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug pilha stack.asm",
+            "type": "gdb",
+            "request": "launch",
+            "target": "${workspaceFolder}/pilha-de-hardware/stack",
+            "cwd": "${workspaceFolder}/pilha-de-hardware",
+            "valuesFormatting": "parseText"
+        }
+    ]
+}
