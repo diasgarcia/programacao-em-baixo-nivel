@@ -1,7 +1,7 @@
 global _start
 
 section .data
-message: db `Salve, simpatia!\n`, 10
+message: db `Salve, simpatia!\n`
 
 section .text
 _start:
