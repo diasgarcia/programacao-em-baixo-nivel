@@ -15,6 +15,6 @@ _start:
 _quit:
 
     mov     rax, 0x3c       ; 60
-    mov     rdi, 42
-    ; xor     rdx, rdx
+    ; mov     rdi, 42
+    xor     rdx, rdx
     syscall
