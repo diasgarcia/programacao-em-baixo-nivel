@@ -11,7 +11,3 @@ _start:
     mov     rsi, message    ; argumento #2 em dsi: onde começa a string?
     mov     rdx, 14         ; argumento #3 em rdx: quantos bytes devem ser escritos?
     syscall
-
-    mov     rax, 60         ; syscall exit
-    xor     rdi, rdi        ; código 0
-    syscall
