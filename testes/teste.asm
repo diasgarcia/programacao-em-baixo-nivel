@@ -9,7 +9,7 @@ global _start
 _start:
 
     mov     rdi, string
-    call    str_len
+    call    str_print
 
     mov     rdi, rax
     call    exit
